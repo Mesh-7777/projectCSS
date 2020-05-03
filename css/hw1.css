@@ -1,0 +1,158 @@
+    /* CSS for all 3 pages */
+    /* CSS For BODY.  */
+    
+    body {
+        background: #F0F8FF;
+        margin: 25px;
+    }
+    /* CSS For HEADER.  */
+    
+    header {
+        background: #8FBC8F url(../images/flywheel.jpg) left top;
+        padding: 5px;
+    }
+    /* CSS For H1.  */
+    
+    h1 {
+        font-size: 40px;
+        font-family: "times new roman";
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 20px;
+        color: #ffffff;
+    }
+    /* CSS For NAV.  */
+    
+    nav {
+        padding: 2px;
+        text-align: center;
+        margin: 5px;
+    }
+    /* CSS For NAV A.  */
+    
+    nav a {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "times new roman";
+        padding: 20px;
+        padding-left: 70px;
+        padding-right: 70px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #ffffff;
+        opacity: 0.5;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 30px;
+        color: #000000;
+    }
+    /* CSS For LINKS HOVER.  */
+    
+    nav a:hover {
+        background-color: white;
+        opacity: 1;
+        text-decoration: underline;
+    }
+    /* CSS For LINKS.  */
+    
+    .right a {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "times new roman";
+        color: #000080;
+    }
+    
+    .right a:visited {
+        color: #8B008B;
+    }
+    /* CSS For ACTIVE Class. */
+    
+    a.active {
+        background-color: #ffffff;
+        opacity: 1;
+    }
+    /* CSS For ASIDE Class LEFT.  */
+    
+    .left {
+        padding: 30px;
+        background: linear-gradient(lightblue, white);
+        float: left;
+        display: block;
+        width: 20%;
+    }
+    /* CSS For ASIDE Class LEFT IMG.  */
+    
+    .left a>img {
+        display: block;
+        margin: 30px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: -moz-available;
+        width: -webkit-fill-available;
+    }
+    /* CSS For SECTION Class RIGHT.  */
+    
+    .right {
+        background: #F0F0F0;
+        font-weight: bold;
+        font-family: "times new roman";
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        width: 74%;
+        float: right;
+    }
+    /* CSS For H2.  */
+    
+    h2 {
+        text-transform: uppercase;
+        color: #000080;
+        font-size: 45px;
+    }
+    /* CSS For TABLE*/
+    
+    table {
+        width: 70%;
+        display: table;
+        border-collapse: separate;
+        box-sizing: border-box;
+        border-spacing: 2px;
+        border-color: grey;
+    }
+    
+    th {
+        background-color: #20B2AA;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 8px solid chartreuse;
+        display: table-cell;
+        height: 70px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    tr>th:first-child {
+        text-align: left;
+    }
+    
+    td {
+        padding: 10px;
+        border: 1px solid #E6E6FA;
+        border-collapse: collapse;
+        background-color: #E6E600;
+        text-align: center;
+    }
+    
+    tr>td:first-child {
+        text-align: left;
+    }
+    
+    tr :not(th) {
+        opacity: 0.7;
+    }
+    
+    tr:hover {
+        opacity: 1;
+        background-color: #353506;
+    }
+    /* End of Code*/
